@@ -25,7 +25,7 @@ const vagas = [
     modalidade: 'clt',
     salarioMin: 3000,
     salarioMax: 4500,
-    requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
+    requisitos: ['java', 'CSS', 'JavaScript', 'jQuery']
   },
   {
     id: 2,
