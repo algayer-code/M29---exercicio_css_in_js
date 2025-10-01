@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Cores } from '../../styles'
 
 export const Form = styled.div`
   height: 360px;
@@ -15,14 +16,14 @@ export const Form = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--cor-principal);
+    background-color: ${Cores.corPrincipal};
     content: '';
     opacity: 0.7;
   }
 
   & > div {
     position: relative;
-    color: #eee;
+    color: ${Cores.corSecundaria};
   }
 
   @media (max-width: 768px) {

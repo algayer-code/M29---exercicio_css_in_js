@@ -4,6 +4,7 @@ import FormVagas from '../../components/FormVagas'
 import Vaga from '../../components/Vaga'
 
 import { VagasUl } from './styles'
+import { Container } from '../../styles'
 
 type Vaga = {
   id: string
@@ -97,7 +98,7 @@ const ListaVagas = () => {
   )
 
   return (
-    <div>
+    <Container>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
       <VagasUl>
         {vagasFiltradas.map((vag) => (
@@ -113,7 +114,7 @@ const ListaVagas = () => {
           />
         ))}
       </VagasUl>
-    </div>
+    </Container>
   )
 }
 

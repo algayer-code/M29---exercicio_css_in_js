@@ -1,8 +1,8 @@
-import { CabecalhoEst } from './styles'
+import { CabecalhoEst, Title } from './styles'
 
 const Cabecalho = () => (
   <CabecalhoEst>
-    <h1>EBAC Jobs</h1>
+    <Title>EBAC Jobs</Title>
   </CabecalhoEst>
 )
 

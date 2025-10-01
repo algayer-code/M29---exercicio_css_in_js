@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { Cores } from '../../styles'
 
 export const BtnPesquisar = styled.button`
-  background-color: var(--cor-principal);
-  border: 1px solid var(--cor-principal);
+  background-color: ${Cores.corPrincipal};
+  border: 1px solid ${Cores.corPrincipal};
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
@@ -14,7 +15,7 @@ export const BtnPesquisar = styled.button`
 export const Form = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
-  background-color: var(--cor-secundaria);
+  background-color: ${Cores.corSecundaria};
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
@@ -22,5 +23,5 @@ export const Form = styled.form`
 
 export const Campo = styled.input`
   padding: 0 16px;
-  outline-color: var(--cor-principal);
+  outline-color: ${Cores.corPrincipal};
 `
